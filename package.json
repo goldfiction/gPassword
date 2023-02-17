@@ -11,7 +11,7 @@
     "scripts": {
         "inst": "npm install --no-bin-links",
         "test": "mocha --require node_modules/coffeescript/register test/*.coffee -t 20000",
-        "start": "node play.js",
+        "start": "node app.js",
         "cache":"npm cache verify"
     }
 }
