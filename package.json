@@ -1,0 +1,17 @@
+{
+    "name": "gPassword",
+    "main": "app.js",
+    "license": "Apache-2.0",
+    "engines" : { 
+        "npm" : "5.7.1",
+        "node" : "8.0.0"
+    },
+    "dependencies": {
+    },
+    "scripts": {
+        "inst": "npm install --no-bin-links",
+        "test": "mocha --require node_modules/coffeescript/register test/*.coffee -t 20000",
+        "start": "node play.js",
+        "cache":"npm cache verify"
+    }
+}
